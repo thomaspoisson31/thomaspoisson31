@@ -1,0 +1,58 @@
+<personnage>
+  <nom>Josias Lavare</nom>
+  <souche>Doucrin</souche>
+  <profession>Fléchier</profession>
+  <attributs>
+    <positif>Instruit (Savoir débute à 3)</positif>
+    <negatif>Mauvaise réputation</negatif>
+  </attributs>
+  <competences>
+    <savoir>3</savoir>
+    <flechier>3</flechier>
+    <dressage>2</dressage>
+    <chance>2</chance>
+    <charme>1</charme>
+    <nature>1</nature>
+    <subtilite>1</subtilite>
+  </competences>
+  <materiel_professionnel>
+    <item>Arc</item>
+    <item>20 flèches (1D6)</item>
+    <item>Corneille de compagnie</item>
+  </materiel_professionnel>
+  <valeurs>
+    <endurance>8</endurance>
+    <chance>2</chance>
+  </valeurs>
+  <particularites>
+    <item>Gagne 2 points de compétence supplémentaires à chaque nouveau rang</item>
+  </particularites>
+  <foyer_ancestral>
+    <nom>Saints-Saules</nom>
+    <description>Hanté par le chant d'une jeune fille en quête de l'amour véritable</description>
+  </foyer_ancestral>
+  <objet_special>Un chant qui, lorsqu'il est chanté, peut invoquer une aide providentielle (mais juste une fois)</objet_special>
+  <reve>Écrire un livre sur la généalogie de sa famille</reve>
+  <etapes_du_reve>
+    <etape1>
+      <description>Rassembler les histoires familiales en interrogeant les membres âgés de la famille Lavare</description>
+      <defi>La grand-tante Marguerite, gardienne des plus anciennes histoires familiales, est connue pour son caractère difficile et sa réticence à partager les secrets de famille</defi>
+    </etape1>
+    <etape2>
+      <description>Voyager jusqu'à la bibliothèque de Quatre-Marches pour rechercher des documents historiques sur la famille</description>
+      <defi>Les archives sont gardées par un bibliothécaire nain extrêmement pointilleux qui n'autorise l'accès qu'aux personnes sachant lire l'ancienne langue des nains</defi>
+    </etape2>
+    <etape3>
+      <description>Découvrir un secret familial longtemps caché qui pourrait changer la perception de l'histoire familiale</description>
+      <defi>Le secret est lié à une vieille querelle entre les Lavare et une autre famille influente de la Commune. Révéler ce secret pourrait raviver le conflit</defi>
+    </etape3>
+    <etape4>
+      <description>Trouver un imprimeur prêt à publier le livre</description>
+      <defi>Le seul imprimeur capable de produire un livre de qualité suffisante est un gobelin excentrique vivant en bordure de la Commune. Il n'acceptera de travailler que si on lui rapporte un objet magique qu'il a perdu lors d'une aventure passée</defi>
+    </etape4>
+  </etapes_du_reve>
+  <notes>
+    <item>En cas d'échec à un test de charme, l'attitude du PNJ devient immédiatement inamicale</item>
+    <item>Décrivez l'erreur commise dans sa jeunesse pour expliquer sa mauvaise réputation</item>
+  </notes>
+</personnage>
