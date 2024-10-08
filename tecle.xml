@@ -1,0 +1,50 @@
+<personnage>
+  <nom>Tècle Charafoin</nom>
+  <genre>Masculin</genre>
+  <souche>Doucrin</souche>
+  <profession>Ratier</profession>
+  <attributs>
+    <positif>Alerte (Subtilité débute à 3)</positif>
+  </attributs>
+  <competences>
+    <subtilite>5</subtilite>
+    <nature>2</nature>
+    <chance>2</chance>
+    <charme>1</charme>
+    <dressage>1</dressage>
+    <ratier>1</ratier>
+    <savoir>1</savoir>
+  </competences>
+  <materiel_professionnel>
+    <item>Gourdin</item>
+    <item>Besace</item>
+    <item>Chien de travail</item>
+  </materiel_professionnel>
+  <valeurs>
+    <endurance>10</endurance>
+    <chance>2</chance>
+  </valeurs>
+  <particularites>
+    <item>Gagne 2 points de compétence supplémentaires à chaque nouveau rang</item>
+  </particularites>
+  <foyer_ancestral>
+    <nom>Grand-Fenil</nom>
+    <description>Connu pour sa décoration incluant l'énorme tête empaillée d'un hobgobelin tué par Bris Charafoin</description>
+  </foyer_ancestral>
+  <bonus_familial>+2 à la valeur d'endurance (déjà inclus)</bonus_familial>
+  <reve>Creuser son propre trou bien à lui</reve>
+  <etapes_du_reve>
+    <etape1>
+      <description>Trouver l'emplacement idéal pour son nouveau trou</description>
+      <defi>Le meilleur emplacement se trouve sur un terrain appartenant à une famille rivale des Charafoin. Tècle devra soit négocier, soit trouver un moyen de les convaincre de lui céder le terrain.</defi>
+    </etape1>
+    <etape2>
+      <description>Obtenir les autorisations nécessaires auprès du conseil du village</description>
+      <defi>Le conseil est réticent à autoriser de nouveaux trous, craignant une surpopulation. Tècle devra prouver qu'il peut apporter quelque chose d'unique à la communauté avec son nouveau trou.</defi>
+    </etape2>
+    <etape3>
+      <description>Creuser et aménager le trou</description>
+      <defi>Lors du creusement, Tècle découvre une ancienne caverne elfique. Il doit décider s'il intègre cette découverte à son trou (risquant d'attirer l'attention indésirable d'aventuriers) ou s'il la cache (potentiellement dangereux si des créatures y habitent).</defi>
+    </etape3>
+  </etapes_du_reve>
+</personnage>
