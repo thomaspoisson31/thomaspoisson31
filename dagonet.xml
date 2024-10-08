@@ -1,0 +1,47 @@
+<personnage>
+  <nom>Dagonet Margine</nom>
+  <genre>Masculin</genre>
+  <souche>Vauclair</souche>
+  <profession>Comédien</profession>
+  <attributs>
+    <positif>Instruit (Savoir débute à 3)</positif>
+    <negatif>Allergique à tout (-2 à la valeur d'endurance)</negatif>
+  </attributs>
+  <competences>
+    <savoir>3</savoir>
+    <charme>1</charme>
+    <chance>1</chance>
+    <dressage>1</dressage>
+    <nature>1</nature>
+    <comedien>1</comedien>
+    <subtilite>1</subtilite>
+  </competences>
+  <materiel_professionnel>
+    <item>Épée de bois</item>
+    <item>Miroir</item>
+    <item>Nécessaire de déguisement</item>
+  </materiel_professionnel>
+  <valeurs>
+    <endurance>8</endurance>
+    <chance>1</chance>
+  </valeurs>
+  <particularites>
+    <item>Inflige 1 dégât supplémentaire lors des attaques</item>
+    <item>Augmente sa valeur d'endurance de 1D6 à chaque nouveau rang</item>
+  </particularites>
+  <foyer_ancestral>
+    <nom>Corcolline</nom>
+    <description>Au sommet de la colline la plus haute et ayant la plus belle vue</description>
+  </foyer_ancestral>
+  <objet_special>Une très imposante trompette gravée de runes</objet_special>
+  <reve>Visiter toutes les tavernes des quatre marches</reve>
+  <etapes_du_reve>
+    <etape1>
+      <description>Créer une carte des tavernes des quatre marches</description>
+      <defi>Certaines tavernes sont secrètes ou réservées à une clientèle spécifique. Dagonet devra user de son charme et de ses talents de comédien pour obtenir ces informations.</defi>
+    </etape1>
+    <etape2>
+      <description>Obtenir les fonds nécessaires pour son périple</description>
+      <defi>Dagonet doit monter un spectacle itinérant pour financer son voyage, mais il doit d'abord convaincre une troupe de comédiens réticents de le rejoindre.</defi>
+    </etape2>
+    <etape3>
