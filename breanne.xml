@@ -1,0 +1,59 @@
+<personnage>
+  <nom>Bréanne Bourgeoliesse</nom>
+  <genre>Féminin</genre>
+  <souche>Audouin</souche>
+  <profession>Charpentière</profession>
+  <attributs>
+    <positif>Alerte (Subtilité débute à 3)</positif>
+  </attributs>
+  <competences>
+    <subtilite>3</subtilite>
+    <charme>1</charme>
+    <chance>1</chance>
+    <dressage>1</dressage>
+    <nature>1</nature>
+    <charpentier>1</charpentier>
+    <savoir>1</savoir>
+  </competences>
+  <materiel_professionnel>
+    <item>Scie</item>
+    <item>Forets</item>
+    <item>Clous</item>
+    <item>Maillet</item>
+  </materiel_professionnel>
+  <valeurs>
+    <endurance>6</endurance>
+    <chance>1</chance>
+  </valeurs>
+  <particularites>
+    <item>Acquiert un nouveau tour à chaque rang</item>
+  </particularites>
+  <foyer_ancestral>
+    <nom>L'Abbaye de la Pomme d'Or</nom>
+    <description>Abrite un vieux pommier nommé « le Compère » dont le tronc a presque la forme d'un visage ; il aurait parlé à au moins trois reprises</description>
+  </foyer_ancestral>
+  <objet_special>Une épée courte gravée de runes (1D6)</objet_special>
+  <tours>
+    <tour>Présentations: Vous apprenez le nom complet et véritable d'une créature vivante dans votre champ de vision</tour>
+  </tours>
+  <reve>Préserver la recette de tarte aux pommes exceptionnelle de Madame Pimbêche</reve>
+  <contexte_du_reve>Madame Pimbêche, une vieille Audouin talentueuse mais orgueilleuse, est gravement malade. Elle refuse de partager sa fameuse recette de tarte aux pommes, risquant de la faire disparaître à jamais. Bréanne veut préserver cet héritage culinaire pour la communauté.</contexte_du_reve>
+  <etapes_du_reve>
+    <etape1>
+      <description>Gagner la confiance de Madame Pimbêche</description>
+      <defi>Madame Pimbêche est méfiante envers tout le monde. Bréanne doit trouver un moyen de se rapprocher d'elle, peut-être en l'aidant dans ses tâches quotidiennes ou en lui tenant compagnie.</defi>
+    </etape1>
+    <etape2>
+      <description>Découvrir où est cachée la recette</description>
+      <defi>Madame Pimbêche garde la recette bien cachée. Bréanne doit observer attentivement et rassembler des indices pour déterminer l'emplacement du précieux document, tout en respectant l'intimité de la vieille dame.</defi>
+    </etape2>
+    <etape3>
+      <description>Obtenir l'accès à la cachette</description>
+      <defi>La recette est probablement gardée dans un endroit verrouillé ou protégé. Bréanne doit trouver un moyen d'y accéder légitimement, peut-être en se faisant confier une tâche qui lui donne accès à cet endroit.</defi>
+    </etape3>
+    <etape4>
+      <description>Mémoriser ou copier la recette</description>
+      <defi>Une fois l'accès obtenu, Bréanne n'aura que peu de temps pour mémoriser ou copier la recette sans se faire prendre. Elle devra peut-être utiliser ses compétences de charpentière pour créer un outil qui l'aidera dans cette tâche délicate.</defi>
+    </etape4>
+  </etapes_du_reve>
+</personnage>
