@@ -1,0 +1,56 @@
+<personnage>
+  <nom>Rosange Pied-Léger</nom>
+  <genre>Féminin</genre>
+  <souche>Doucrin</souche>
+  <profession>Mercière</profession>
+  <attributs>
+    <positif>Alerte (Subtilité débute à 3)</positif>
+    <negatif>Illettrée (Ne sait pas lire et a des difficultés avec les mathématiques)</negatif>
+  </attributs>
+  <competences>
+    <subtilite>3</subtilite>
+    <charme>4</charme>
+    <merciere>2</merciere>
+    <chance>1</chance>
+    <dressage>1</dressage>
+    <nature>1</nature>
+    <savoir>1</savoir>
+  </competences>
+  <materiel_professionnel>
+    <item>Ciseaux</item>
+    <item>Sac rempli de boutons (pouvant servir de chausse-trappes)</item>
+    <item>Fil et aiguille</item>
+  </materiel_professionnel>
+  <valeurs>
+    <endurance>8</endurance>
+    <chance>1</chance>
+  </valeurs>
+  <particularites>
+    <item>Gagne 2 points de compétence supplémentaires à chaque nouveau rang</item>
+  </particularites>
+  <foyer_ancestral>
+    <nom>Viellecreux</nom>
+    <description>Le plus ancien trou de la Commune</description>
+  </foyer_ancestral>
+  <objet_special>Une flèche rouge qui ne rate jamais sa cible et est toujours retrouvée</objet_special>
+  <reve>Gagner le ruban bleu à la fête des récoltes</reve>
+  <etapes_du_reve>
+    <etape1>
+      <description>Choisir le projet parfait pour le concours</description>
+      <defi>Rosange doit trouver une idée originale qui mettra en valeur ses talents de mercière tout en reflétant l'esprit de la fête des récoltes.</defi>
+      <indices>Couleurs automnales, motifs naturels géométriques, textures variées, élément "changeant" inspiré d'une légende locale.</indices>
+    </etape1>
+    <etape2>
+      <description>Rassembler les matériaux nécessaires</description>
+      <defi>Certains matériaux rares sont nécessaires pour son projet. Rosange doit négocier avec des marchands itinérants et peut-être même s'aventurer dans les Bois Profonds pour trouver des éléments uniques.</defi>
+    </etape2>
+    <etape3>
+      <description>Apprendre une nouvelle technique</description>
+      <defi>Pour réaliser son projet, Rosange doit maîtriser une technique de broderie complexe. Étant illettrée, elle ne peut pas simplement lire un manuel et doit trouver un moyen créatif d'apprendre cette technique.</defi>
+    </etape3>
+    <etape4>
+      <description>Surmonter un obstacle inattendu juste avant le concours</description>
+      <defi>À la veille du concours, Rosange découvre un défaut dans son travail. Elle doit rapidement trouver une solution créative pour transformer ce défaut en atout, mettant à l'épreuve toutes ses compétences et son ingéniosité.</defi>
+    </etape4>
+  </etapes_du_reve>
+</personnage>
