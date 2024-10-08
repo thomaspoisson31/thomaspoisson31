@@ -36,7 +36,7 @@
   <reve>Gagner le ruban bleu à la fête des récoltes</reve>
   <etapes_du_reve>
     <etape1>
-      <description>Choisir le projet parfait pour le concours</description>
+      <description>Choisir le projet parfait</description>
       <defi>Rosange doit trouver une idée originale qui mettra en valeur ses talents de mercière tout en reflétant l'esprit de la fête des récoltes.</defi>
       <indices>Couleurs automnales, motifs naturels géométriques, textures variées, élément "changeant" inspiré d'une légende locale.</indices>
     </etape1>
@@ -48,9 +48,5 @@
       <description>Apprendre une nouvelle technique</description>
       <defi>Pour réaliser son projet, Rosange doit maîtriser une technique de broderie complexe. Étant illettrée, elle ne peut pas simplement lire un manuel et doit trouver un moyen créatif d'apprendre cette technique.</defi>
     </etape3>
-    <etape4>
-      <description>Surmonter un obstacle inattendu juste avant le concours</description>
-      <defi>À la veille du concours, Rosange découvre un défaut dans son travail. Elle doit rapidement trouver une solution créative pour transformer ce défaut en atout, mettant à l'épreuve toutes ses compétences et son ingéniosité.</defi>
-    </etape4>
   </etapes_du_reve>
 </personnage>
