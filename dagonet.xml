@@ -45,3 +45,16 @@
       <defi>Dagonet doit monter un spectacle itinérant pour financer son voyage, mais il doit d'abord convaincre une troupe de comédiens réticents de le rejoindre.</defi>
     </etape2>
     <etape3>
+      <description>Visiter les tavernes de sa propre marche</description>
+      <defi>Une taverne locale est réputée hantée. Dagonet doit résoudre le mystère pour pouvoir la visiter sans danger.</defi>
+    </etape3>
+    <etape4>
+      <description>Voyager vers les marches voisines</description>
+      <defi>Le passage entre les marches est gardé par un troll qui demande une énigme ou une performance en guise de péage. Dagonet doit trouver un moyen de le satisfaire à chaque passage.</defi>
+    </etape4>
+    <etape5>
+      <description>Visiter la taverne la plus difficile d'accès</description>
+      <defi>La dernière taverne sur sa liste se trouve dans un endroit presque inaccessible. Dagonet doit organiser une expédition pour l'atteindre, peut-être en recrutant ses compagnons d'aventure.</defi>
+    </etape5>
+  </etapes_du_reve>
+</personnage>
