@@ -20,6 +20,7 @@
     <item>Forets</item>
     <item>Clous</item>
     <item>Maillet</item>
+    <objet_special>Une épée courte gravée de runes (1D6)</objet_special>
   </materiel_professionnel>
   <valeurs>
     <endurance>6</endurance>
@@ -32,7 +33,6 @@
     <nom>L'Abbaye de la Pomme d'Or</nom>
     <description>Abrite un vieux pommier nommé « le Compère » dont le tronc a presque la forme d'un visage ; il aurait parlé à au moins trois reprises</description>
   </foyer_ancestral>
-  <objet_special>Une épée courte gravée de runes (1D6)</objet_special>
   <tours>
     <tour>Présentations: Vous apprenez le nom complet et véritable d'une créature vivante dans votre champ de vision</tour>
   </tours>
