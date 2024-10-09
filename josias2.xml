@@ -1,6 +1,7 @@
 <personnage>
   <nom>Josias Lavare</nom>
   <souche>Doucrin</souche>
+  <titre>Mademoiselle</titre>
   <profession>Fléchier</profession>
   <attributs>
     <positif>Instruit (Savoir débute à 3)</positif>
