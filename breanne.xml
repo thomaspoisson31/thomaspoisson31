@@ -41,15 +41,15 @@
   <etapes_du_reve>
     <etape1>
       <description>Gagner la confiance de Madame Pimbêche</description>
-      <defi>Madame Pimbêche est méfiante envers tout le monde. Bréanne doit trouver un moyen de se rapprocher d'elle, peut-être en l'aidant dans ses tâches quotidiennes ou en lui tenant compagnie.</defi>
+      <defi>Madame Pimbêche est méfiante envers tout le monde.</defi>
     </etape1>
     <etape2>
-      <description>Localiser la recette</description>
-      <defi>La recette est probablement gardée dans un endroit verrouillé ou protégé. Bréanne doit trouver un moyen d'y accéder légitimement, peut-être en se faisant confier une tâche qui lui donne accès à cet endroit.</defi>
+      <description>Récupérer la recette</description>
+      <defi>La recette est probablement gardée dans un endroit verrouillé ou protégé.</defi>
     </etape2>
     <etape3>
-      <description>Récupérer la recette</description>
-      <defi>Une fois l'accès obtenu, Bréanne n'aura que peu de temps pour mémoriser ou copier la recette sans se faire prendre. Elle devra peut-être utiliser ses compétences de charpentière pour créer un outil qui l'aidera dans cette tâche délicate.</defi>
+      <description>Exécuter la recette</description>
+      <defi>La recette nécessite un ingrédient rare, qui n'existe pas dans la Communauté</defi>
     </etape3>
   </etapes_du_reve>
 </personnage>
