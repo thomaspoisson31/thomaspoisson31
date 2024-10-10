@@ -34,27 +34,19 @@
     <description>Au sommet de la colline la plus haute et ayant la plus belle vue</description>
   </foyer_ancestral>
   <objet_special>Une très imposante trompette gravée de runes</objet_special>
-  <reve>Visiter toutes les tavernes des quatre marches</reve>
+  <reve>Jouer dans les 3 plus grandes tavernes des Quatre Marches</reve>
   <etapes_du_reve>
     <etape1>
-      <description>Créer une carte des tavernes des quatre marches</description>
-      <defi>Certaines tavernes sont secrètes ou réservées à une clientèle spécifique. Dagonet devra user de son charme et de ses talents de comédien pour obtenir ces informations.</defi>
+      <description>Se produire au Tonneau Dansant (Marche de l'Ouest)</description>
+      <defi>Convaincre le propriétaire grincheux de laisser Dagonet se produire en échange d'une performance improvisée qui doit faire rire toute la clientèle.</defi>
     </etape1>
     <etape2>
-      <description>Obtenir les fonds nécessaires pour son périple</description>
-      <defi>Dagonet doit monter un spectacle itinérant pour financer son voyage, mais il doit d'abord convaincre une troupe de comédiens réticents de le rejoindre.</defi>
+      <description>Se produire à L'Étoile du Barde (Marche du Nord)</description>
+      <defi>Résoudre une série d'énigmes anciennes inscrites sur les murs de la taverne pour débloquer un mécanisme secret, révélant ainsi une scène cachée où Dagonet pourra enfin se produire.</defi>
     </etape2>
     <etape3>
-      <description>Visiter les tavernes de sa propre marche</description>
-      <defi>Une taverne locale est réputée hantée. Dagonet doit résoudre le mystère pour pouvoir la visiter sans danger.</defi>
+      <description>Se produire au Chaudron Doré (Marche de l'Est)</description>
+      <defi>Réussir à donner une représentation complète malgré les interruptions constantes d'un groupe de fêtards nains, tout en évitant une bagarre générale et en gagnant leur respect.</defi>
     </etape3>
-    <etape4>
-      <description>Voyager vers les marches voisines</description>
-      <defi>Le passage entre les marches est gardé par un troll qui demande une énigme ou une performance en guise de péage. Dagonet doit trouver un moyen de le satisfaire à chaque passage.</defi>
-    </etape4>
-    <etape5>
-      <description>Visiter la taverne la plus difficile d'accès</description>
-      <defi>La dernière taverne sur sa liste se trouve dans un endroit presque inaccessible. Dagonet doit organiser une expédition pour l'atteindre, peut-être en recrutant ses compagnons d'aventure.</defi>
-    </etape5>
   </etapes_du_reve>
 </personnage>
