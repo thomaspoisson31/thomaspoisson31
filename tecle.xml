@@ -7,12 +7,12 @@
     <positif>Alerte (Subtilité débute à 3)</positif>
   </attributs>
   <competences>
-    <subtilite>5</subtilite>
+    <subtilite>4</subtilite>
     <nature>2</nature>
     <chance>2</chance>
     <charme>1</charme>
     <dressage>1</dressage>
-    <ratier>1</ratier>
+    <ratier>2</ratier>
     <savoir>1</savoir>
   </competences>
   <materiel_professionnel>
