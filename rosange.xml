@@ -20,6 +20,7 @@
     <item>Ciseaux</item>
     <item>Sac rempli de boutons (pouvant servir de chausse-trappes)</item>
     <item>Fil et aiguille</item>
+    <objet_special>Une flèche rouge qui ne rate jamais sa cible et est toujours retrouvée</objet_special>
   </materiel_professionnel>
   <valeurs>
     <endurance>8</endurance>
@@ -32,7 +33,6 @@
     <nom>Viellecreux</nom>
     <description>Le plus ancien trou de la Commune</description>
   </foyer_ancestral>
-  <objet_special>Une flèche rouge qui ne rate jamais sa cible et est toujours retrouvée</objet_special>
   <reve>Gagner le ruban bleu à la fête des récoltes</reve>
   <etapes_du_reve>
     <etape1>
