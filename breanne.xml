@@ -12,7 +12,7 @@
     <chance>1</chance>
     <dressage>1</dressage>
     <nature>1</nature>
-    <charpentier>2</charpentier>
+    <profession>2</profession>
     <savoir>1</savoir>
   </competences>
   <materiel_professionnel>
