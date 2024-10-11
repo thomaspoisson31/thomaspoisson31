@@ -32,7 +32,7 @@
     <nom>Saints-Saules</nom>
     <description>Hanté par le chant d'une jeune fille en quête de l'amour véritable</description>
   </foyer_ancestral>
-  <objet_special>Un chant qui, lorsqu'il est chanté, peut invoquer une aide providentielle (mais juste une fois)</objet_special>
+  <tour>Un chant qui, lorsqu'il est chanté, peut invoquer une aide providentielle (mais juste une fois)</tour>
   <reve>Écrire un livre sur la généalogie de sa famille</reve>
   <etapes_du_reve>
     <etape1>
