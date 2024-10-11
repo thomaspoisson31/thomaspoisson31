@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11820\viewh8700\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <personnage>\
+  <nom>Josias Lavare</nom>\
+  <souche>Doucrin</souche>\
+  <profession>Fl\'e9chier</profession>\
+  <attributs>\
+    <positif>Instruit (Savoir d\'e9bute \'e0 3)</positif>\
+    <negatif>Mauvaise r\'e9putation</negatif>\
+  </attributs>\
+  <competences>\
+    <savoir>3</savoir>\
+    <flechier>3</flechier>\
+    <dressage>2</dressage>\
+    <chance>2</chance>\
+    <charme>1</charme>\
+    <nature>1</nature>\
+    <subtilite>1</subtilite>\
+  </competences>\
+  <materiel_professionnel>\
+    <item>Arc</item>\
+    <item>20 fl\'e8ches (1D6)</item>\
+    <item>Corneille de compagnie</item>\
+  </materiel_professionnel>\
+  <valeurs>\
+    <endurance>8</endurance>\
+    <chance>2</chance>\
+  </valeurs>\
+  <particularites>\
+    <item>Gagne 2 points de comp\'e9tence suppl\'e9mentaires \'e0 chaque nouveau rang</item>\
+  </particularites>\
+  <foyer_ancestral>\
+    <nom>Saints-Saules</nom>\
+    <description>Hant\'e9 par le chant d'une jeune fille en qu\'eate de l'amour v\'e9ritable</description>\
+  </foyer_ancestral>\
+  <objet_special>Un chant qui, lorsqu'il est chant\'e9, peut invoquer une aide providentielle (mais juste une fois)</objet_special>\
+  <reve>\'c9crire un livre sur la g\'e9n\'e9alogie de sa famille</reve>\
+  <etapes_du_reve>\
+    <etape1>\
+      <description>Rassembler les histoires familiales en interrogeant les membres \'e2g\'e9s de la famille Lavare</description>\
+      <defi>La grand-tante Marguerite, gardienne des plus anciennes histoires familiales, est connue pour son caract\'e8re difficile et sa r\'e9ticence \'e0 partager les secrets de famille</defi>\
+    </etape1>\
+    <etape2>\
+      <description>Voyager jusqu'\'e0 la biblioth\'e8que de Quatre-Marches pour rechercher des documents historiques sur la famille</description>\
+      <defi>Les archives sont gard\'e9es par un biblioth\'e9caire nain extr\'eamement pointilleux qui n'autorise l'acc\'e8s qu'aux personnes sachant lire l'ancienne langue des nains</defi>\
+    </etape2>\
+    <etape3>\
+      <description>D\'e9couvrir un secret familial longtemps cach\'e9 qui pourrait changer la perception de l'histoire familiale</description>\
+      <defi>Le secret est li\'e9 \'e0 une vieille querelle entre les Lavare et une autre famille influente de la Commune. R\'e9v\'e9ler ce secret pourrait raviver le conflit</defi>\
+    </etape3>\
+    <etape4>\
+      <description>Trouver un imprimeur pr\'eat \'e0 publier le livre</description>\
+      <defi>Le seul imprimeur capable de produire un livre de qualit\'e9 suffisante est un gobelin excentrique vivant en bordure de la Commune. Il n'acceptera de travailler que si on lui rapporte un objet magique qu'il a perdu lors d'une aventure pass\'e9e</defi>\
+    </etape4>\
+  </etapes_du_reve>\
+  <notes>\
+    <item>En cas d'\'e9chec \'e0 un test de charme, l'attitude du PNJ devient imm\'e9diatement inamicale</item>\
+    <item>D\'e9crivez l'erreur commise dans sa jeunesse pour expliquer sa mauvaise r\'e9putation</item>\
+  </notes>\
+</personnage>}
