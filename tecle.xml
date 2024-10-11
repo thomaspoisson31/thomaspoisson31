@@ -31,7 +31,7 @@
     <nom>Grand-Fenil</nom>
     <description>Connu pour sa décoration incluant l'énorme tête empaillée d'un hobgobelin tué par Bris Charafoin</description>
   </foyer_ancestral>
-  <bonus_familial>+2 à la valeur d'endurance (déjà inclus)</bonus_familial>
+  <objet_special>+2 à la valeur d'endurance (déjà inclus)</objet_special>
   <reve>Creuser son propre trou bien à lui</reve>
   <etapes_du_reve>
     <etape1>
