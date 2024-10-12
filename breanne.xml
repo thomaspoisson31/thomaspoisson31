@@ -20,8 +20,8 @@
     <item>Forets</item>
     <item>Clous</item>
     <item>Maillet</item>
-    <objet_special>Une épée courte gravée de runes (1D6)</objet_special>
   </materiel_professionnel>
+  <objet_special>Une épée courte gravée de runes (1D6)</objet_special>
   <valeurs>
     <endurance>6</endurance>
     <chance>1</chance>
