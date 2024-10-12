@@ -5,7 +5,7 @@
   <profession>Flechier</profession>
   <attributs>
     <positif>Instruit (Savoir débute à 3)</positif>
-    <negatif>Mauvaise réputation (Attitude PNJ inamicale si échec)</negatif>
+    <negatif>Mauvaise réputation</negatif>
   </attributs>
   <competences>
     <savoir>3</savoir>
