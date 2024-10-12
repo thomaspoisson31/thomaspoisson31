@@ -5,13 +5,13 @@
   <profession>Flechier</profession>
   <attributs>
     <positif>Instruit (Savoir débute à 3)</positif>
-    <negatif>Mauvaise réputation</negatif>
+    <negatif>Mauvaise réputation (Attitude PNJ inamicale si échec)</negatif>
   </attributs>
   <competences>
     <savoir>3</savoir>
     <profession>3</profession>
     <dressage>2</dressage>
-    <chance>2</chance>
+    <chance>3</chance>
     <charme>1</charme>
     <nature>1</nature>
     <subtilite>1</subtilite>
