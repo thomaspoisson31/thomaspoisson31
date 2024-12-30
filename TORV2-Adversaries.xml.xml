@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adversaries>
+    <dreadfulAbilitiesDefinitions>
+        <ability name="Abomination">
+            <description>Au début du premier round de combat, tous les Héros à portée de vue d'une ou plusieurs créatures dotées de cette capacité redoutable gagnent 3 points d'Ombre (Terreur). Ceux qui ratent leur test d'Ombre sont découragés et ne peuvent pas dépenser d'Espoir pour tout le reste du combat.</description>
+        </ability>
+        <ability name="Aversion pour le soleil">
+            <description>La créature perd 1 point de Haine au début de chaque round où elle est exposée à la lumière directe du soleil.</description>
+        </ability>
+        <ability name="Aversion (Peuple)">
+            <description>Quand la cible de la créature est l'objet de son Aversion, toutes ses attaques sont favorisées.</description>
+        </ability>
+        <ability name="Berserk mortel">
+            <description>Les cibles Blessées lancent un dé du Destin défavorisé quand elles doivent déterminer la Gravité de leur Blessure.</description>
+        </ability>
+        <ability name="Cri de triomphe">
+            <description>Dépensez 1 point de Haine/Détermination pour restaurer 1 point de Haine/Détermination à tous les autres créatures du même type participant au combat.</description>
+        </ability>
+        <ability name="Cuir robuste">
+            <description>Dépensez 1 point de Haine pour gagner [2d] à un jet de Protection.</description>
+        </ability>
+        <ability name="Épouvantable sortilège">
+            <description>Dépensez 1 point de Haine pour effectuer 1 point d'Ombre (Attribut+4) à un Héros.</description>
+        </ability>
+        <ability name="Force effroyable">
+            <description>Si une attaque de la créature inflige un Coup perforant, dépensez 1 point de Haine pour rendre le jet de Protection de la cible défavorisé.</description>
+        </ability>
+        <ability name="Grand Bond">
+            <description>Dépensez 1 point de Haine pour attaquer un Héros quelle que soit sa position de combat, y compris en position arrière.</description>
+        </ability>
+        <ability name="Habitants des ténèbres">
+            <description>Toutes les attaques effectuées dans l'obscurité sont favorisées.</description>
+        </ability>
+        <ability name="Lâcheté">
+            <description>Si elle est affectée par la manœuvre de combat Intimider l'adversaire, la créature perd également 1 point de Haine/Détermination.</description>
+        </ability>
+        <ability name="Lent d'esprit">
+            <description>Un Héros en position de combat avancée peut tenter un test d'ÉNIGMES en tant qu'action principale du round. En cas de réussite, la créature perd 1 point de Haine, plus 1 point pour chaque symbole de Réussite obtenu.</description>
+        </ability>
+        <ability name="Ombre (Terreur)">
+            <description>Dépensez 1 point de Haine pour infliger 2 points d'Ombre (Terreur) à tous les Héros à portée de vue. Ceux qui ratent leur test d'Ombre ne peuvent pas dépenser d'Espoir pour tout le reste du combat.</description>
+        </ability>
+        <ability name="Peur du feu">
+            <description>Au début de chaque round où la créature est engagée en combat rapproché contre un adversaire portant une torche ou tout autre objet enflammé, elle perd 1 point de Haine.</description>
+        </ability>
+        <ability name="Poison orque">
+            <description>Si une attaque provoque une Blessure, la cible est également empoisonnée.</description>
+        </ability>
+        <ability name="Résistance abominable">
+            <description>Quand une attaque inflige à la créature des dégâts censés faire tomber son Endurance à zéro, elle subit un Coup perforant à la place. Si elle est toujours en vie, ses points d'Endurance sont restaurés au maximum.</description>
+        </ability>
+        <ability name="Vitesse du serpent">
+            <description>Quand la créature est ciblée par une attaque, dépensez 1 point de Haine pour rendre cette attaque défavorisée.</description>
+        </ability>
+    </dreadfulAbilitiesDefinitions>
+
+    <category name="Hommes Malfaisants">
+        <description>Les individus cruels comme les brigands, les maraudeurs et les esclavagistes qui errent en Terre du Milieu. Ils ne sont pas des serviteurs de Sauron et possèdent une Détermination plutôt qu'une Haine.</description>
+        <bandits>
+            <subtype name="Chef des Bandits">
+                <attributeLevel>3</attributeLevel>
+                <endurance>12</endurance>
+                <power>1</power>
+                <determination>3</determination>
+                <parry>+1</parry>
+                <armor>2</armor>
+                <combatSkills>
+                    <skill>Épée courte 3 (3/16)</skill>
+                    <skill>Arc 2 (3/14, Perforation)</skill>
+                </combatSkills>
+                <dreadfulAbilities>
+                    <ability>Cri de triomphe : Dépensez 1 point de Détermination pour restaurer 1 point de Détermination à tous les autres Bandits participant au combat</ability>
+                </dreadfulAbilities>
+            </subtype>
+            <subtype name="Larron">
+                <attributeLevel>2</attributeLevel>
+                <endurance>8</endurance>
+                <power>1</power>
+                <determination>2</determination>
+                <parry>-</parry>
+                <armor>2</armor>
+                <combatSkills>
+                    <skill>Gourdin 2(3/12)</skill>
+                    <skill>Arc 2(3/14, Perforation)</skill>
+                </combatSkills>
+                <dreadfulAbilities>
+                    <ability>Lâcheté : Si elle est affectée par la manœuvre de combat Intimider l'adversaire, la créature perd également 1 point de Détermination</ability>
+                </dreadfulAbilities>
+            </subtype>
+        </bandits>
+        <southerners>
+            <subtype name="Voleur de Grand Chemin">
+                <attributeLevel>4</attributeLevel>
+                <endurance>16</endurance>
+                <power>2</power>
+                <determination>3</determination>
+                <parry>+1</parry>
+                <armor>2</armor>
+                <combatSkills>
+                    <skill>Lance 3 (4/14, Perforation)</skill>
+                    <skill>Arc 2 (3/14, Perforation)</skill>
+                </combatSkills>
+                <dreadfulAbilities>
+                    <ability>Vitesse du serpent : Quand la créature est ciblée par une attaque, dépensez 1 point de Détermination pour rendre cette attaque défavorisée</ability>
+                </dreadfulAbilities>
+            </subtype>
+            <!-- Autres sous-types de Sudistes... -->
+        </southerners>
+    </category>
+
+    <category name="Loups Sauvages">
+        <commonAbilities>
+            <ability>Bond : Dépensez 1 point de Haine pour attaquer une cible qui soit en position de combat, y compris en position arrière</ability>
+        </commonAbilities>
+        <subtype name="Molosse de Sauron">
+            <attributeLevel>5</attributeLevel>
+            <endurance>20</endurance>
+            <power>2</power>
+            <hate>5</hate>
+            <parry>-</parry>
+            <armor>2</armor>
+            <combatSkills>
+                <skill>Morsure 3 (5/14, Perforation)</skill>
+                <skill>Griffes 3 (5/14, Étreinte)</skill>
+            </combatSkills>
+            <dreadfulAbilities>
+                <ability>Abomination</ability>
+                <ability>Berserk mortel</ability>
+            </dreadfulAbilities>
+        </subtype>
+        <!-- Autres sous-types de Loups... -->
+    </category>
+
+    <category name="Morts-Vivants">
+        <commonAbilities>
+            <ability>Aversion pour le soleil</ability>
+            <ability>Habitants des ténèbres</ability>
+        </commonAbilities>
+        <subtype name="Être des Galgals">
+            <attributeLevel>6</attributeLevel>
+            <endurance>24</endurance>
+            <power>1</power>
+            <hate>6</hate>
+            <parry>-</parry>
+            <armor>3</armor>
+            <combatSkills>
+                <skill>Épée antique 3 (5/16, Perforation)</skill>
+                <skill>Bouclier ghostal 2</skill>
+            </combatSkills>
+            <dreadfulAbilities>
+                <ability>Épouvantable sortilège</ability>
+            </dreadfulAbilities>
+        </subtype>
+        <!-- Autres sous-types de Morts-Vivants... -->
+    </category>
+
+    <category name="Orques">
+        <commonAbilities>
+            <ability>Aversion pour le soleil : Quand la cible d'un Orque ou Gobelin est son Aventure, toutes ses attaques sont favorisées</ability>
+        </commonAbilities>
+        <subtype name="Chef Grand Orque">
+            <attributeLevel>7</attributeLevel>
+            <endurance>48</endurance>
+            <power>2</power>
+            <hate>7</hate>
+            <parry>+3</parry>
+            <armor>4</armor>
+            <combatSkills>
+                <skill>Cimeterre lourd 3 (5/18, Brise bouclier)</skill>
+                <skill>Lance à pointe large 3 (5/16, Perforation)</skill>
+            </combatSkills>
+            <dreadfulAbilities>
+                <ability>Cri de triomphe</ability>
+                <ability>Force effroyable</ability>
+                <ability>Vitesse du serpent</ability>
+            </dreadfulAbilities>
+        </subtype>
+        <!-- Autres sous-types d'Orques... -->
+    </category>
+
+    <category name="Trolls">
+        <commonAbilities>
+            <ability>Résistance abominable : Quand une attaque inflige des dégâts censés faire tomber leur Endurance à zéro, ils subissent un Coup perforant à la place. S'ils sont toujours en vie, leurs points d'Endurance sont restaurés au maximum</ability>
+            <ability>Lent d'esprit : Un Héros en position de combat avancée peut tenter un test d'ÉNIGMES. En cas de réussite, le Troll perd 1 point de Haine, plus 1 point par symbole de Réussite</ability>
+        </commonAbilities>
+        <subtype name="Grand Troll des Cavernes">
+            <attributeLevel>10</attributeLevel>
+            <endurance>80</endurance>
+            <power>2</power>
+            <hate>10</hate>
+            <parry>-</parry>
+            <armor>3</armor>
+            <combatSkills>
+                <skill>Écrasement 3 (6/12, Étreinte)</skill>
+                <skill>Morsure 3 (6/14, Perforation)</skill>
+            </combatSkills>
+            <dreadfulAbilities>
+                <ability>Cuir robuste</ability>
+                <ability>Ombre (Terreur)</ability>
+            </dreadfulAbilities>
+        </subtype>
+        <!-- Autres sous-types de Trolls... -->
+    </category>
+</adversaries>
