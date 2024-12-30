@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adversaires - L'Anneau Unique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .adversary-card {
+            background-color: #ffffff;
+            border: 2px solid #ae947b;
+            border-radius: 10px;
+            padding: 15px;
+            max-width: 350px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .adversary-card h2 {
+            color: #8a3a07;
+            font-size: 18px;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+        }
+        .adversary-card .attribute {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .adversary-card .attribute div {
+            text-align: center;
+            width: 25%;
+        }
+        .adversary-card .section {
+            margin-top: 15px;
+        }
+        .adversary-card .section h3 {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .adversary-card .abilities,
+        .adversary-card .skills {
+            margin-left: 15px;
+        }
+        .ability {
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #8a3a07;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ae947b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="adversary-viewer" class="adversary-card"></div>
+        <button id="next-adversary">Adversaire Suivant</button>
+    </div>
+
+    <script>
+        // URL du fichier XML avec les adversaires
+        const xmlUrl = "https://raw.githubusercontent.com/thomaspoisson31/thomaspoisson31/refs/heads/main/TORV2-Adversaries.xml.xml";
+        let adversaries = []; // Liste des adversaires
+        let currentIndex = 0; // Index de l'adversaire courant
+
+        // Charger les données XML
+        async function loadAdversaries() {
+            const response = await fetch(xmlUrl);
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+
+            const adversaryNodes = xmlDoc.querySelectorAll("adversary");
+            adversaries = Array.from(adversaryNodes).map(adversary => ({
+                name: adversary.getAttribute("name"),
+                description: adversary.querySelector("description")?.textContent || "",
+                endurance: adversary.querySelector("endurance")?.textContent || "Inconnu",
+                power: adversary.querySelector("power")?.textContent || "Inconnu",
+                hate: adversary.querySelector("hate")?.textContent || "Inconnu",
+                parry: adversary.querySelector("parry")?.textContent || "Inconnu",
+                armor: adversary.querySelector("armor")?.textContent || "Inconnu",
+                combatSkills: Array.from(adversary.querySelectorAll("combatSkills > skill")).map(skill => skill.textContent),
+                abilities: Array.from(adversary.querySelectorAll("dreadfulAbilities > ability")).map(ability => ability.textContent)
+            }));
+            displayAdversary();
+        }
+
+        // Afficher un adversaire
+        function displayAdversary() {
+            if (adversaries.length === 0) {
+                document.getElementById("adversary-viewer").innerHTML = "<p>Aucun adversaire trouvé.</p>";
+                return;
+            }
+
+            const adversary = adversaries[currentIndex];
+            const viewer = document.getElementById("adversary-viewer");
+            viewer.innerHTML = `
+                <h2>${adversary.name}</h2>
+                <p><em>${adversary.description}</em></p>
+                <div class="attribute">
+                    <div><h3>Endurance</h3><p>${adversary.endurance}</p></div>
+                    <div><h3>Puissance</h3><p>${adversary.power}</p></div>
+                    <div><h3>Haine</h3><p>${adversary.hate}</p></div>
+                    <div><h3>Parade</h3><p>${adversary.parry}</p></div>
+                </div>
+                <div class="attribute">
+                    <div><h3>Armure</h3><p>${adversary.armor}</p></div>
+                </div>
+                <div class="section">
+                    <h3>Compétences de Combat</h3>
+                    <div class="skills">${adversary.combatSkills.map(skill => `<p>${skill}</p>`).join("")}</div>
+                </div>
+                <div class="section">
+                    <h3>Capacités Redoutables</h3>
+                    <div class="abilities">${adversary.abilities.map(ability => `<p class="ability">${ability}</p>`).join("")}</div>
+                </div>
+            `;
+        }
+
+        // Gestion du bouton "Adversaire Suivant"
+        document.getElementById("next-adversary").addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % adversaries.length; // Passer au suivant (boucle circulaire)
+            displayAdversary();
+        });
+
+        // Charger les données au démarrage
+        loadAdversaries();
+    </script>
+</body>
+</html>
